@@ -1,3 +1,9 @@
+Props 
+- Is short for Properties
+- Allows to pass data from parent to child component
+
+
+
 Redux:
 
 npm react react-redux
