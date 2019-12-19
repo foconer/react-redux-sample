@@ -8,8 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        {/* <Greet user={{first:'John', last:'Doe'}} /> */}
-        <GreetProps user={{first:'John', last:'Doe'}} />
+        <Greet user={{first:'John', last:'Doe'}} />
       </div>
     );
   }

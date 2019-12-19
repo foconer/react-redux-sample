@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux'
 import * as userAction from '../store/userAction'
+import PropTypes from 'prop-types'
 
 class Greet extends React.Component {
     // state = {
@@ -21,10 +22,6 @@ class Greet extends React.Component {
             </>
         )
     }
-}
-
-function mapDispatchToProps(dispatch) {
-
 }
 
 function mapStateToProps(state) {
